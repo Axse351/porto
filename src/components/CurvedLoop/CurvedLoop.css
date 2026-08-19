@@ -1,0 +1,45 @@
+/* Versi bar (bukan full-viewport) supaya cocok dipasang sebagai strip
+   marquee di dalam section, dengan tampilan brutalism (hitam-putih, border tebal). */
+.curved-loop-jacket {
+    position: relative;
+    width: 100%;
+    height: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background: var(--ink);
+    border-top: var(--border) solid var(--ink);
+    border-bottom: var(--border) solid var(--ink);
+}
+
+.curved-loop-svg {
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    display: block;
+}
+
+/* Style teksnya — nempel di elemen <text> lewat class yang dikirim via prop
+   className, supaya CurvedLoop tetap reusable di section lain dengan gaya beda. */
+.curved-loop-text {
+    fill: var(--paper);
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 3.2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+}
+
+@media (max-width: 760px) {
+    .curved-loop-jacket {
+        height: 130px;
+    }
+
+    .curved-loop-text {
+        font-size: 2.1rem;
+    }
+}

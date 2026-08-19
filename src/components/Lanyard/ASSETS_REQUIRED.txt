@@ -1,0 +1,10 @@
+Taruh 2 file berikut di folder ini sebelum menjalankan project:
+
+1. card.glb      -> model 3D kartu ID (dari react-bits: src/assets/lanyard/card.glb)
+2. lanyard.png   -> tekstur tali lanyard (dari react-bits: src/assets/lanyard/lanyard.png)
+
+Cara cepat dapatkan keduanya:
+  npx shadcn@latest add @react-bits/Lanyard-JS-CSS
+
+Lalu salin card.glb dan lanyard.png hasil install ke folder ini
+(src/components/Lanyard/). Hapus file txt ini setelah selesai.

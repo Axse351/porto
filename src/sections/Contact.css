@@ -1,0 +1,115 @@
+.contact {
+  border-bottom: none;
+  padding-bottom: 2rem;
+}
+
+.contact__heading {
+  font-size: clamp(2rem, 4.5vw, 3.4rem);
+  margin-top: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.contact__body {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 2rem;
+}
+
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  border: var(--border) solid var(--ink);
+  padding: 2rem;
+}
+
+.contact__field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.contact__field span {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.contact__field input,
+.contact__field textarea {
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
+  border: 2px solid var(--ink);
+  background: var(--paper);
+  padding: 0.75rem;
+  resize: vertical;
+}
+
+.contact__field input:focus,
+.contact__field textarea:focus {
+  background: var(--acid);
+  outline: none;
+}
+
+.contact__form .btn {
+  align-self: flex-start;
+}
+
+.contact__socials {
+  display: flex;
+  flex-direction: column;
+  border: var(--border) solid var(--ink);
+}
+
+.contact__social {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  padding: 1.4rem 1.6rem;
+  border-bottom: 2px solid var(--ink);
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.contact__social:last-child {
+  border-bottom: none;
+}
+
+.contact__social:hover {
+  background: var(--ink);
+  color: var(--paper);
+}
+
+.contact__social-label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--siren);
+}
+
+.contact__social:hover .contact__social-label {
+  color: var(--acid);
+}
+
+.contact__social-value {
+  font-weight: 700;
+}
+
+.contact__footer {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 2px solid var(--ink);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+@media (max-width: 800px) {
+  .contact__body {
+    grid-template-columns: 1fr;
+  }
+}

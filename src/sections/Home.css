@@ -1,0 +1,129 @@
+.hero {
+  padding-top: 3rem;
+  padding-bottom: 0;
+  overflow: hidden;
+}
+
+.hero__grid {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 2rem;
+  align-items: center;
+  min-height: 74vh;
+}
+
+.hero__text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+.hero__title {
+  font-size: clamp(2.6rem, 7vw, 6rem);
+  margin-top: 0.75rem;
+}
+
+.hero__line-wrap {
+  display: block;
+  overflow: hidden;
+}
+
+.hero__line {
+  display: block;
+}
+
+.hero__line--outline {
+  -webkit-text-stroke: 2px var(--ink);
+  color: var(--paper);
+}
+
+.hero__sub {
+  max-width: 40ch;
+  font-size: 0.95rem;
+  color: var(--ink);
+}
+
+.hero__cta {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.btn {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.85rem;
+  padding: 0.9rem 1.6rem;
+  border: var(--border) solid var(--ink);
+  transition: transform 0.15s ease, background 0.15s ease, color 0.15s ease;
+}
+
+.btn--fill {
+  background: var(--ink);
+  color: var(--paper);
+}
+
+.btn--fill:hover {
+  background: var(--siren);
+  border-color: var(--siren);
+  transform: translate(-3px, -3px);
+}
+
+.btn--outline {
+  background: transparent;
+  color: var(--ink);
+}
+
+.btn--outline:hover {
+  background: var(--acid);
+  transform: translate(-3px, -3px);
+}
+
+.hero__lanyard {
+  position: relative;
+  height: 70vh;
+  min-height: 480px;
+  border: var(--border) solid var(--ink);
+  background: repeating-linear-gradient(
+    45deg,
+    var(--ink) 0px,
+    var(--ink) 1px,
+    transparent 1px,
+    transparent 14px
+  );
+  background-color: var(--paper);
+}
+
+.hero__lanyard-hint {
+  position: absolute;
+  bottom: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  background: var(--ink);
+  color: var(--paper);
+  padding: 4px 10px;
+  pointer-events: none;
+}
+
+.hero__curved-wrap,
+.hero .curved-loop-jacket {
+  margin-top: 3rem;
+}
+
+@media (max-width: 960px) {
+  .hero__grid {
+    grid-template-columns: 1fr;
+  }
+  .hero__lanyard {
+    height: 60vh;
+    min-height: 400px;
+    order: -1;
+  }
+}

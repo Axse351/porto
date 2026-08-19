@@ -1,0 +1,9 @@
+.app {
+  width: 100%;
+  min-height: 100vh;
+  background: var(--paper);
+}
+
+main {
+  padding-top: 64px; /* space for fixed navbar */
+}
