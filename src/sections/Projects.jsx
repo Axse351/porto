@@ -26,10 +26,10 @@ const PROJECTS = [
   },
   {
     id: '04',
-    title: 'Raw Market',
-    year: '2024',
-    stack: 'React · Stripe · Vite',
-    desc: 'Platform e-commerce dengan tampilan brutalist dan checkout satu halaman.'
+    title: 'POS CAFFEE',
+    year: '2025',
+    stack: 'Flutter · SQLlite',
+    desc: 'Platform kaisr untuk rumah makan.'
   }
 ];
 

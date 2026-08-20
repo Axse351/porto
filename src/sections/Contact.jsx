@@ -3,10 +3,10 @@ import { gsap } from 'gsap';
 import './Contact.css';
 
 const SOCIALS = [
-  { label: 'Email', value: 'hello@Yonatandev.id', href: 'mailto:hello@Yonatandev.id' },
-  { label: 'GitHub', value: '@Yonatandev', href: 'https://github.com' },
-  { label: 'LinkedIn', value: '/in/Yonatandev', href: 'https://linkedin.com' },
-  { label: 'Instagram', value: '@Yonatan.dev', href: 'https://instagram.com' }
+  { label: 'Email', value: 'axsenathanzx@gmail.com', href: 'mailto:axsenathanzx@gmail.com' },
+  { label: 'GitHub', value: '@Axse351', href: 'https://github.com/Axse351' },
+  { label: 'LinkedIn', value: '/in/Yonatan _', href: 'https://www.linkedin.com/in/yonatan-981686239/' },
+  { label: 'Instagram', value: '@Yonatan351', href: 'https://instagram.com/Yonatan351' }
 ];
 
 export default function Contact() {
@@ -105,7 +105,7 @@ export default function Contact() {
       </div>
 
       <footer className="contact__footer contact__reveal">
-        <span>© {new Date().getFullYear()} Yonatan_DEV — Dibangun dengan React &amp; GSAP</span>
+        <span>© {new Date().getFullYear()} Yonatan_DEV — awo &amp; :p nyari apa si mas</span>
         <a href="#home">↑ Kembali ke atas</a>
       </footer>
     </section>
