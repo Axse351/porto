@@ -2,22 +2,14 @@ import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import './Gallery.css';
 
-// Import gambar sebagai modul supaya ikut diproses & di-hash oleh bundler
-// saat build (fix untuk masalah gambar hilang di Vercel/production).
 import img1 from '../assets/gallery/1.png';
 import img2 from '../assets/gallery/2.png';
 import img3 from '../assets/gallery/3.jpeg';
-import img4 from '../assets/gallery/4.jpg';
-import img5 from '../assets/gallery/5.jpg';
-import img6 from '../assets/gallery/6.jpg';
 
 const ITEMS = [
   { id: 'IMG_01', caption: 'Desain UI — Ledger Grid', src: img1 },
   { id: 'IMG_02', caption: 'Behind the scenes — Studio', src: img2 },
-  { id: 'IMG_03', caption: 'Wireframe — Kanban Ops', src: img3 },
-  { id: 'IMG_04', caption: 'Konsep 3D — Studio Badge', src: img4 },
-  { id: 'IMG_05', caption: 'Sketsa awal — Raw Market', src: img5 },
-  { id: 'IMG_06', caption: 'Setup meja kerja', src: img6 }
+  { id: 'IMG_03', caption: 'Wireframe — Kanban Ops', src: img3 }
 ];
 
 export default function Gallery() {
