@@ -55,7 +55,7 @@ export default function Home() {
           <p ref={subRef} className="hero__sub">
             Saya merancang dan membangun produk digital dengan kode yang
             bersih dan tampilan yang berani. Tarik kartu ID di samping, itu
-            saya, secara harfiah.
+            saya, secara harfiah. awokwkk
           </p>
 
           <div className="hero__cta">
