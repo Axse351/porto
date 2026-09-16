@@ -3,10 +3,11 @@ import { gsap } from 'gsap';
 import { useTranslation } from 'react-i18next';
 import './Projects.css';
 
+// Data yang TIDAK diterjemahkan (id, year, stack teknologi) tetap di sini
 const PROJECTS_META = [
   { key: 'genmim', id: '01', year: '2026', stack: 'React · Flutter · SQL · Firebase' },
   { key: 'hrisMobile', id: '02', year: '2025', stack: 'Flutter · GSAP · Chart.js' },
-  { key: 'gasbaee', id: '03', year: '2025', stack: null },
+  { key: 'gasbaee', id: '03', year: '2025', stack: null }, // stack diterjemahkan, lihat di bawah
   { key: 'posCaffee', id: '04', year: '2025', stack: 'Flutter · SQLite' }
 ];
 
@@ -18,6 +19,7 @@ export default function Projects() {
     ...meta,
     title: t(`projects.items.${meta.key}.title`),
     desc: t(`projects.items.${meta.key}.desc`),
+    // "gasbaee" punya field stack yang diterjemahkan (industri kreatif / creative industry / クリエイティブ業界)
     stack: meta.stack ?? t(`projects.items.${meta.key}.stack`)
   }));
 

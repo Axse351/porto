@@ -1,0 +1,99 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Project",
+    "gallery": "Gallery",
+    "contact": "Contact",
+    "menuOpen": "MENU",
+    "menuClose": "CLOSE",
+    "menuOpenAria": "Open menu",
+    "menuCloseAria": "Close menu"
+  },
+
+  "home": {
+    "tag": "[ 01 / HOME ]",
+    "titleLine1": "FULL STACK",
+    "titleLine2": "DEVELOPER",
+    "titleLine3": "& DESIGNER",
+    "sub": "I design and build digital products with clean code and a bold look. Pull the ID card next to me, that's literally me. lol",
+    "ctaProject": "View Projects",
+    "ctaContact": "Get in Touch",
+    "lanyardHint": "↻ DRAG THE CARD",
+    "marquee": "WEB · FULL STACK · PREMIER PRO · REACT · LARAVEL ·"
+  },
+
+  "about": {
+    "tag": "[ 02 / ABOUT ]",
+    "headingLine1": "I Love Learning",
+    "headingLine2": "Through Code and Design",
+    "paragraph1": "I'm a developer who believes an honest interface beats one that's pretty but empty. Visible structure, firm borders, and interactions that feel real — that's my work philosophy.",
+    "paragraph2": "My focus is on full stack web and cross-platform development. I also build mobile apps with Flutter.",
+    "stats": {
+      "experience": "Years of Experience",
+      "projects": "Projects Completed",
+      "clients": "Active Clients",
+      "prayers": "mom's prayers"
+    }
+  },
+
+  "projects": {
+    "tag": "[ 03 / PROJECT ]",
+    "heading": "Selected Work",
+    "items": {
+      "genmim": {
+        "title": "GENMIM",
+        "desc": "A web and mobile app that simplifies Umrah and Hajj data management, complete with user management and reporting features."
+      },
+      "hrisMobile": {
+        "title": "HRIS MOBILE",
+        "desc": "Interactive financial visualization with scroll-based data transition animations."
+      },
+      "gasbaee": {
+        "title": "GASBAEE",
+        "stack": "creative industry",
+        "desc": "A creative team for film and content production."
+      },
+      "posCaffee": {
+        "title": "POS CAFFEE",
+        "desc": "A point-of-sale platform for restaurants."
+      }
+    }
+  },
+
+  "gallery": {
+    "tag": "[ 04 / GALLERY ]",
+    "heading": "Visual Log",
+    "items": {
+      "img1": "UI Design — Ledger Grid",
+      "img2": "Behind the scenes — Studio",
+      "img3": "Wireframe — Kanban Ops"
+    }
+  },
+
+  "contact": {
+    "tag": "[ 05 / CONTACT ]",
+    "headingLine1": "Let's Build",
+    "headingLine2": "Something Together.",
+    "form": {
+      "nameLabel": "Name",
+      "namePlaceholder": "Full name",
+      "emailLabel": "Email",
+      "emailPlaceholder": "name@email.com",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Tell me about your project...",
+      "submit": "Send Message",
+      "submitted": "Sent ✓"
+    },
+    "socials": {
+      "email": "Email",
+      "github": "GitHub",
+      "linkedin": "LinkedIn",
+      "instagram": "Instagram"
+    },
+    "footer": {
+      "copyright": "© {{year}} Yonatan_DEV — built with code and coffee",
+      "backToTop": "↑ Back to top"
+    }
+  }
+}

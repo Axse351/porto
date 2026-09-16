@@ -4,6 +4,7 @@ import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import App from './App.jsx';
 import './index.css';
+import './i18n/i18n.js';
 
 gsap.registerPlugin(ScrollTrigger);
 

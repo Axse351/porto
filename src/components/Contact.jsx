@@ -3,6 +3,7 @@ import { gsap } from 'gsap';
 import { useTranslation } from 'react-i18next';
 import './Contact.css';
 
+// value/href tidak diterjemahkan (data kontak asli), hanya label yang diterjemahkan
 const SOCIALS_META = [
   { key: 'email', value: 'axsenathanzx@gmail.com', href: 'mailto:axsenathanzx@gmail.com' },
   { key: 'github', value: '@Axse351', href: 'https://github.com/Axse351' },
@@ -24,7 +25,10 @@ export default function Contact() {
   useEffect(() => {
     const ctx = gsap.context(() => {
       gsap.from('.contact__reveal', {
-        scrollTrigger: { trigger: sectionRef.current, start: 'top 70%' },
+        scrollTrigger: {
+          trigger: sectionRef.current,
+          start: 'top 70%'
+        },
         y: 40,
         opacity: 0,
         duration: 0.7,
@@ -42,17 +46,9 @@ export default function Contact() {
 
   const handleSubmit = e => {
     e.preventDefault();
+    // Hook this up to your backend / form service (Formspree, Resend, dll).
     setSent(true);
   };
-
-  function SocialLink({ s }) {
-    return (
-      <a key={s.key} href={s.href} target="_blank" rel="noreferrer" className="contact__social">
-        <span className="contact__social-label">{s.label}</span>
-        <span className="contact__social-value">{s.value}</span>
-      </a>
-    );
-  }
 
   return (
     <section id="contact" ref={sectionRef} className="contact section">
@@ -108,7 +104,16 @@ export default function Contact() {
 
         <div className="contact__socials contact__reveal">
           {SOCIALS.map(s => (
-            <SocialLink key={s.key} s={s} />
+            <a
+              key={s.key}
+              href={s.href}
+              target="_blank"
+              rel="noreferrer"
+              className="contact__social"
+            >
+              <span className="contact__social-label">{s.label}</span>
+              <span className="contact__social-value">{s.value}</span>
+            </a>
           ))}
         </div>
       </div>

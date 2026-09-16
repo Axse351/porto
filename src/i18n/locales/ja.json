@@ -1,0 +1,99 @@
+{
+  "nav": {
+    "home": "ホーム",
+    "about": "概要",
+    "projects": "プロジェクト",
+    "gallery": "ギャラリー",
+    "contact": "お問い合わせ",
+    "menuOpen": "メニュー",
+    "menuClose": "閉じる",
+    "menuOpenAria": "メニューを開く",
+    "menuCloseAria": "メニューを閉じる"
+  },
+
+  "home": {
+    "tag": "[ 01 / ホーム ]",
+    "titleLine1": "フルスタック",
+    "titleLine2": "デベロッパー",
+    "titleLine3": "＆デザイナー",
+    "sub": "私はクリーンなコードと大胆なビジュアルでデジタルプロダクトを設計・開発しています。隣のIDカードを引っ張ってみてください、それが文字通り私です。笑",
+    "ctaProject": "プロジェクトを見る",
+    "ctaContact": "お問い合わせ",
+    "lanyardHint": "↻ カードをドラッグ",
+    "marquee": "WEB · フルスタック · PREMIER PRO · REACT · LARAVEL ·"
+  },
+
+  "about": {
+    "tag": "[ 02 / 概要 ]",
+    "headingLine1": "コードとデザインを",
+    "headingLine2": "学ぶのが好きです",
+    "paragraph1": "私は、見た目だけ美しくて中身のないインターフェースより、誠実なインターフェースの方が優れていると信じている開発者です。目に見える構造、はっきりとした境界線、そして本物のインタラクション — それが私の仕事の哲学です。",
+    "paragraph2": "私はフルスタックWeb開発とクロスプラットフォーム開発に注力しています。Flutterを使ったモバイルアプリの開発も行っています。",
+    "stats": {
+      "experience": "年の経験",
+      "projects": "完了プロジェクト",
+      "clients": "アクティブなクライアント",
+      "prayers": "母の祈り"
+    }
+  },
+
+  "projects": {
+    "tag": "[ 03 / プロジェクト ]",
+    "heading": "厳選した作品",
+    "items": {
+      "genmim": {
+        "title": "GENMIM",
+        "desc": "ウムラ・ハッジのデータ管理を簡素化するWeb・モバイルアプリ。ユーザー管理機能とレポート機能を搭載。"
+      },
+      "hrisMobile": {
+        "title": "HRIS MOBILE",
+        "desc": "スクロール連動のデータ遷移アニメーションを備えたインタラクティブな財務可視化ツール。"
+      },
+      "gasbaee": {
+        "title": "GASBAEE",
+        "stack": "クリエイティブ業界",
+        "desc": "映像制作・コンテンツ制作のクリエイティブチーム。"
+      },
+      "posCaffee": {
+        "title": "POS CAFFEE",
+        "desc": "飲食店向けのPOS（レジ）プラットフォーム。"
+      }
+    }
+  },
+
+  "gallery": {
+    "tag": "[ 04 / ギャラリー ]",
+    "heading": "ビジュアルログ",
+    "items": {
+      "img1": "UIデザイン — レジャーグリッド",
+      "img2": "舞台裏 — スタジオ",
+      "img3": "ワイヤーフレーム — かんばん運用"
+    }
+  },
+
+  "contact": {
+    "tag": "[ 05 / お問い合わせ ]",
+    "headingLine1": "一緒に何かを",
+    "headingLine2": "作りましょう。",
+    "form": {
+      "nameLabel": "お名前",
+      "namePlaceholder": "フルネーム",
+      "emailLabel": "メールアドレス",
+      "emailPlaceholder": "name@email.com",
+      "messageLabel": "メッセージ",
+      "messagePlaceholder": "プロジェクトについて教えてください...",
+      "submit": "メッセージを送信",
+      "submitted": "送信完了 ✓"
+    },
+    "socials": {
+      "email": "メール",
+      "github": "GitHub",
+      "linkedin": "LinkedIn",
+      "instagram": "Instagram"
+    },
+    "footer": {
+      "copyright": "© {{year}} Yonatan_DEV — コードとコーヒーで作られました",
+      "backToTop": "↑ トップに戻る"
+    }
+  }
+}

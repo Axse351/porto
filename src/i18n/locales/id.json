@@ -1,0 +1,99 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Project",
+    "gallery": "Gallery",
+    "contact": "Contact",
+    "menuOpen": "MENU",
+    "menuClose": "CLOSE",
+    "menuOpenAria": "Buka menu",
+    "menuCloseAria": "Tutup menu"
+  },
+
+  "home": {
+    "tag": "[ 01 / HOME ]",
+    "titleLine1": "FULL STACK",
+    "titleLine2": "DEVELOPER",
+    "titleLine3": "& DESIGNER",
+    "sub": "Saya merancang dan membangun produk digital dengan kode yang bersih dan tampilan yang berani. Tarik kartu ID di samping, itu saya, secara harfiah. awokwkk",
+    "ctaProject": "Lihat Project",
+    "ctaContact": "Hubungi Saya",
+    "lanyardHint": "↻ SERET KARTUNYA",
+    "marquee": "WEB · FULL STACK · PREMIER PRO · REACT · LARAVEL ·"
+  },
+
+  "about": {
+    "tag": "[ 02 / ABOUT ]",
+    "headingLine1": "Senang Belajar",
+    "headingLine2": "Dengan Kode dan Desain",
+    "paragraph1": "Saya developer yang percaya bahwa antarmuka yang jujur lebih baik daripada yang cantik tapi kosong. Struktur yang terlihat, border yang tegas, dan interaksi yang nyata — itu filosofi kerja saya.",
+    "paragraph2": "Fokus saya berada pada web full stack dan juga cross platform. Saya juga membangun aplikasi mobile dengan Flutter.",
+    "stats": {
+      "experience": "Tahun Pengalaman",
+      "projects": "Project Selesai",
+      "clients": "Klien Aktif",
+      "prayers": "doa ibu"
+    }
+  },
+
+  "projects": {
+    "tag": "[ 03 / PROJECT ]",
+    "heading": "Selected Work",
+    "items": {
+      "genmim": {
+        "title": "GENMIM",
+        "desc": "Aplikasi web dan mobile untuk memudahkan pengelolaan data umroh atau haji, lengkap dengan fitur manajemen pengguna dan laporan."
+      },
+      "hrisMobile": {
+        "title": "HRIS MOBILE",
+        "desc": "Visualisasi keuangan interaktif dengan animasi transisi data berbasis scroll."
+      },
+      "gasbaee": {
+        "title": "GASBAEE",
+        "stack": "industri kreatif",
+        "desc": "Tim kreatif perfilman dan konten."
+      },
+      "posCaffee": {
+        "title": "POS CAFFEE",
+        "desc": "Platform kasir untuk rumah makan."
+      }
+    }
+  },
+
+  "gallery": {
+    "tag": "[ 04 / GALLERY ]",
+    "heading": "Visual Log",
+    "items": {
+      "img1": "Desain UI — Ledger Grid",
+      "img2": "Behind the scenes — Studio",
+      "img3": "Wireframe — Kanban Ops"
+    }
+  },
+
+  "contact": {
+    "tag": "[ 05 / CONTACT ]",
+    "headingLine1": "Mari Buat",
+    "headingLine2": "Sesuatu Bareng.",
+    "form": {
+      "nameLabel": "Nama",
+      "namePlaceholder": "Nama lengkap",
+      "emailLabel": "Email",
+      "emailPlaceholder": "nama@email.com",
+      "messageLabel": "Pesan",
+      "messagePlaceholder": "Ceritakan project-mu...",
+      "submit": "Kirim Pesan",
+      "submitted": "Terkirim ✓"
+    },
+    "socials": {
+      "email": "Email",
+      "github": "GitHub",
+      "linkedin": "LinkedIn",
+      "instagram": "Instagram"
+    },
+    "footer": {
+      "copyright": "© {{year}} Yonatan_DEV — awo & :p nyari apa si mas",
+      "backToTop": "↑ Kembali ke atas"
+    }
+  }
+}
